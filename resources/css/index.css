@@ -1,0 +1,97 @@
+h1 {
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 120px;
+  letter-spacing: 0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  text-shadow: 14px 10px #9ea79f49;
+}
+
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #17181f;
+  position: relative;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: relative;
+}
+
+li a:hover {
+  background-color: #000000;
+}
+
+body {
+  background-image: url(/resources/image1.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hover-switch > img {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -170px;
+  margin-top: -80px;
+}
+
+/* 
+   * Show the last image by default
+  */
+.hover-switch > img:last-of-type {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+}
+/* 
+   * Hide the last image on hover
+  */
+.hover-switch:hover > img:last-of-type {
+  opacity: 0;
+}
+
+img {
+  width: 350px;
+  height: 500px;
+  border-radius: 10%;
+}
+
+.imagemix > img {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -550px;
+  margin-top: -80px;
+}
+
+/* 
+     * Show the last image by default
+    */
+.imagemix > img:last-of-type {
+  opacity: 1;
+  transition: opacity 0.1s ease-in-out;
+  -moz-transition: opacity 0.1s ease-in-out;
+  -webkit-transition: opacity 0.1s ease-in-out;
+}
+/* 
+     * Hide the last image on hover
+    */
+.imagemix:hover > img:last-of-type {
+  opacity: 0;
+}
